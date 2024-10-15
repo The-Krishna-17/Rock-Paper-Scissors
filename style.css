@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: brown;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6E7FA;
+    width: 24rem;
+    height: 20rem;
+    border: 2px solid brown;
+}
+
+#score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    margin: 1rem;
+}
+
+#score .player, .computer{
+    border:  2px solid brown;
+    padding: 5px;
+    width: 30%;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.buttons{
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.buttons #rock, #paper, #scissors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border: 2px solid brown;
+    padding: 4px;
+    height: 4rem;
+    width: 4rem;
+}
+
+.play-again{
+    margin-top: 1rem;
+    padding: 4px;
+    background-color: brown;
+    border: none;
+    color: white;
+    height: 2.3rem;
+    width: 5.5rem;
+    border-radius: 4px;
+}
+
